@@ -1,14 +1,14 @@
 {
   "name": "phv",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack for html ",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config build/webpack.prod.js --mode production",
     "dev": "webpack-dev-server --open --config build/webpack.dev.js --mode development",
     "lib": "webpack --config build/webpack.lib.js --mode production"
   },
-  "author": "",
+  "author": "guren_d@hotmail.com",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.3.1",
@@ -31,10 +31,10 @@
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
-    "webpack-merge": "^4.1.4"
-  },
-  "dependencies": {
+    "webpack-merge": "^4.1.4",
     "glob": "^7.1.6",
     "sass-resources-loader": "^2.0.3"
+  },
+  "dependencies": {
   }
 }
